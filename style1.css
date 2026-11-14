@@ -417,29 +417,28 @@ section,
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
+  .photo {
+    flex-direction: column;
+    text-align: center;
+  }
 
-.photo {
- flex-direction: column;
- text-align: center;
-}
+  .hero {
+    width: 100%;
+  }
 
-.hero {
- width: 100%;
-}
+  .hero img {
+    max-width: 280px;
+  }
 
-.hero img {
- max-width: 280px;
-}
+  .nav {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-.nav {
- gap: 12px;
- flex-wrap: wrap;
- justify-content: center;
-}
-
-.div1 {
- flex-wrap: wrap;
- justify-content: center;
- gap: 15px;
-}
+  .div1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
 }
